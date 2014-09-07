@@ -22,7 +22,6 @@ recipes.remove(eliteUniversalCable);
 mods.mekanism.Infuser.removeRecipe(atomicAlloy);
 recipes.remove(ultimateUniversalCable);
 recipes.remove(atomicDisassembler);
-recipes.remove(digiMiner);
 recipes.remove(eliteFluidPipe);
 recipes.remove(ultimateFluidPipe);
 
