@@ -198,7 +198,7 @@ recipes.remove(engineSteam);
 recipes.addShaped(shipHelm, [[lever, glass, lever], [woodPlankAll, controlCircuitAdv, woodPlankAll], [woodPlankAll, woodPlankAll, woodPlankAll]]);
 recipes.addShaped(gaugeBasic, [[glass, compass, glass], [ironIngot, controlCircuitAdv, ironIngot], [ironIngot, ironIngot, ironIngot]]);
 recipes.addShaped(gaugeAdvanced, [[null, compass, null], [controlCircuit, gaugeBasic, controlCircuit], [null, null, null]]);
-recipes.addShaped(engineSteam, [[ironIngot, cable, ironIngot], [ironIngot, heatGenerator, ironIngot], [ironIngot, ironIngot, ironIngot]]);
+recipes.addShaped(engineSteam, [[ironIngot, <ThermalFoundation:material:136>, ironIngot], [ironIngot, heatGenerator, ironIngot], [ironIngot, ironIngot, ironIngot]]);
 recipes.addShaped(arcBalloonWhite, [[woolAll, woolAll, woolAll], [woolAll, MekBalloonWhite, woolAll], [woolAll, woolAll, woolAll]]);
 recipes.addShaped(arcBalloonOrange, [[woolAll, woolAll, woolAll], [woolAll, MekBalloonOrange, woolAll], [woolAll, woolAll, woolAll]]);
 recipes.addShaped(arcBalloonMagenta, [[woolAll, woolAll, woolAll], [woolAll, MekBalloonMagenta, woolAll], [woolAll, woolAll, woolAll]]);
