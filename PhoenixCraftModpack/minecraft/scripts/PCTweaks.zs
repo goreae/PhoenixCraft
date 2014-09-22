@@ -15,3 +15,5 @@ recipes.addShaped(sugarCane, [[sand, seed, sand], [seed, waterBucket.transformRe
 
 recipes.addShaped(<ComputerCraft:CC-Computer:16384>, [[<minecraft:gold_ingot>, <appliedenergistics2:item.ItemMultiMaterial:23>, <minecraft:gold_ingot>], [<Forestry:chipsets:3>, <Forestry:thermionicTubes:5> ,<Forestry:chipsets:3>], [<minecraft:gold_ingot>, <ExtraUtilities:decorativeBlock2:4>, <minecraft:gold_ingot>]]);
 recipes.addShaped(<ComputerCraft:CC-Computer>, [[<minecraft:iron_ingot>, <appliedenergistics2:item.ItemMultiMaterial:23>, <minecraft:iron_ingot>], [<Forestry:chipsets>, <Forestry:thermionicTubes:5> ,<Forestry:chipsets:3>], [<minecraft:iron_ingot>, <minecraft:glass>, <minecraft:iron_ingot>]]);
+//-------------------------------
+recipes.remove(<Mekanism:CardboardBox>);
