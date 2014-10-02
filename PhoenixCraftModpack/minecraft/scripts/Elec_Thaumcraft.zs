@@ -53,6 +53,13 @@ mods.modtweaker.setLocalization("en_US", "tc.research_text.FP", "[PC] Create wha
 mods.thaumcraft.Research.addPage("FP", "PC.research_page.FP");
 mods.modtweaker.setLocalization("en_US", "PC.research_page.FP", "-TODO-");
 
+//SeedInfo
+mods.thaumcraft.Research.addResearch("SeedBasic", "PC", "arbor 2, herba 6", 0, 0, 8, <minecraft:wheat_seeds>);
+mods.modtweaker.setLocalization("en_US", "tc.research_name.SeedBasic", "Seeds!");
+mods.modtweaker.setLocalization("en_US", "tc.research_text.SeedBasic", "[PC] Your basic seed!");
+mods.thaumcraft.Research.addPage("SeedBasic", "PC.research_page.SeedBasic");
+mods.modtweaker.setLocalization("en_US", "PC.research_page.SeedBasic", "TODO");
+
 
 ##/RESEARCH
 
@@ -72,7 +79,7 @@ mods.thaumcraft.Crucible.addRecipe("FP", <Thaumcraft:blockCustomPlant:3>, <minec
 mods.thaumcraft.Research.addCruciblePage("FP", <Thaumcraft:blockCustomPlant:3>);
 
 //Vis filter
-mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:ItemResource:8>);
+//mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:ItemResource:8>);
 mods.thaumcraft.Arcane.addShaped("VISF", <Thaumcraft:ItemResource:8>, "aqua 19, terra 3, ordo 12, aer 6, perditio 1, ignis 2", [[<Thaumcraft:ItemResource:3>, <Thaumcraft:ItemShard:6>, <Thaumcraft:ItemResource:3>], [<Thaumcraft:blockTube>, <Thaumcraft:ItemResource:15>, <Thaumcraft:blockTube>], [<Thaumcraft:ItemWispEssence>, <Thaumcraft:blockCustomPlant:4>, <Thaumcraft:ItemWispEssence>]]);
 mods.thaumcraft.Research.addArcanePage("VISF", <Thaumcraft:ItemResource:8>);
 mods.thaumcraft.Arcane.addShaped("DISTILLATION", <Thaumcraft:ItemResource:8>, "aqua 5, ordo 5", [[<minecraft:gold_ingot>, <Thaumcraft:blockMagicalLog:1>, <minecraft:gold_ingot>]]);
