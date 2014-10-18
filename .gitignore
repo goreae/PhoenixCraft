@@ -1,3 +1,4 @@
+PhoenixCraftModpack/minecraft/config/eirairc.cfg
 PhoenixCraftModpack/minecraft/Saves
 PhoenixCraftModpack/minecraft/Logs
 PhoenixCraftModpack/minecraft/mods/carpentersblocks
@@ -12,3 +13,6 @@ PhoenixCraftModpack/minecraft/servers.dat
 PhoenixCraftModpack/minecraft/config/InvTweaks.cfg
 PhoenixCraftModpack/minecraft/mods/carpentersblocks/CarpentersBlocksCachedResources.zip
 PhoenixCraftModpack/minecraft/config/InvTweaks.cfg
+
+PhoenixCraftModpack/minecraft/mods/fastcraft-1.9.jar
+PhoenixCraftModpack/minecraft/mods/carpentersblocks/CarpentersBlocksCachedResources.zip
