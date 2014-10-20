@@ -41,6 +41,7 @@ Added Pneumaticraft
 Added Addons for Blood Magic
 Added WaslieCore
 Added recipes for Pneumaticraft Seeds
+Updated LogisticsPipes
 
 =========================
 2.0.07
