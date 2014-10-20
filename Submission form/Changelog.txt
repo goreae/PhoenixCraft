@@ -1,4 +1,79 @@
 =========================
+2.0.09
+-------------------------
+Added BiblioCraft
+Added recipes for CC Computers
+Updated AE2
+Updated Botania
+Updated Carpenters Blocks
+Updated CCC
+Updated Endertech
+Updated NEI
+Fixed Archimedes' ship engine recipe
+Removed Recipe for Cardbox
+Increased ferrous oregen
+Updated EnderIO
+Added Yellorite ore to the DeepDark
+Make Mekanism native to RF
+Updated Mekanism
+Updated Mekanism Generators
+Updated Mekanism Tools
+Added thaumcraft research for seeds (WIP)
+Updated Chisel
+Updated ComputerCraft
+Updated Modtweaker
+Updated Minetweaker
+Updated Forestry
+Updated Binnies Mods
+Fix the Minetweaker scripts on the new Minetweaker version
+Added chisel blocks to the FMP whitelist
+Updated Blood magic
+Updated Flaxbeards Steam Power
+Updated Mantle
+Updated WAILA
+Updated Tinkers Mechworks
+Updated Thaumcraft
+Updated Tinkers Construct
+Added Spice Of Life
+Added WAILA Harvestability
+Added Sanguimancy
+Added Pneumaticraft
+Added Addons for Blood Magic
+Added WaslieCore
+Added recipes for Pneumaticraft Seeds
+
+=========================
+2.0.07
+-------------------------
+Added Thaumcraft research for trees (WIP)
+Added recipe for sugar cane
+Fix lag spikes
+Updated FSP
+Updated NEI
+Updated CCC
+Updated CCLib
+Elevator no longer drains XP
+Disabled Botania UpdateChecker
+Turned Tinkers compatability with TC on
+Decreased Logisticspipes power usage to encourage it over AE2
+Updated Buildcraft
+Updated LogisticsPipes
+
+=========================
+2.0.03
+-------------------------
+Updated BigReactors
+Updated XU
+Updated FSP
+Updated Mekanism
+Updated Mekanism Tools
+Updated Mekanism generators
+Updated Tinkers Steelworks
+Prevented (possible) crash with bees
+FPS Optmisation
+Fixed crash upon death
+
+=========================
 2.0.01
 -------------------------
 Fixed crash on world creation
