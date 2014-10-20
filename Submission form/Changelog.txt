@@ -1,5 +1,5 @@
 =========================
-2.0.09
+2.1.00
 -------------------------
 Added BiblioCraft
 Added recipes for CC Computers
@@ -36,9 +36,7 @@ Updated Thaumcraft
 Updated Tinkers Construct
 Added Spice Of Life
 Added WAILA Harvestability
-Added Sanguimancy
 Added Pneumaticraft
-Added Addons for Blood Magic
 Added WaslieCore
 Added recipes for Pneumaticraft Seeds
 Updated LogisticsPipes
