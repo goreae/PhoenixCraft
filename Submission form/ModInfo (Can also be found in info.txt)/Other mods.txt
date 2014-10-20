@@ -4,3 +4,7 @@ ExtraCarts; Scott_DTA; http://minecraft.curseforge.com/mc-mods/222379-extra-cart
 FlaxbeardsSteamPower; Flaxbeard; http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2091995-professor-flaxbeards-wondrous-steam-power-mod-beta
 Santa's Toys; SatanicSanta; http://minecraft.curseforge.com/mc-mods/222682-santas-toys
 Santa's Decor; SatanicSanta; http://minecraft.curseforge.com/mc-mods/222394-santas-decor
+WaslieCore, Wasliebob, http://minecraft.curseforge.com/mc-mods/224425-blood-utils
+BloodUtils, Wasliebob, http://minecraft.curseforge.com/mc-mods/224425-blood-utils
+Sanguimancy, Tombenpotter, http://minecraft.curseforge.com/mc-mods/223722-sanguimancy
+Blood Arsenal, Arcaratus, http://www.minecraftforum.net/forum...-mods/2231288-blood-magic-addon-blood-arsenal
