@@ -1,0 +1,14 @@
+recipes.addShaped(<PneumaticCraft:plasticPlant:0>, [[<minecraft:wheat_seeds>, <minecraft:dye:0>]]);
+recipes.addShaped(<PneumaticCraft:plasticPlant:1>, [[<minecraft:wheat_seeds>, <minecraft:dye:1>]]);
+recipes.addShaped(<PneumaticCraft:plasticPlant:2>, [[<minecraft:wheat_seeds>, <minecraft:gunpowder>]]);
+recipes.addShaped(<PneumaticCraft:plasticPlant:3>, [[<minecraft:wheat_seeds>, <minecraft:dye:2>]]);
+recipes.addShaped(<PneumaticCraft:plasticPlant:4>, [[<minecraft:wheat_seeds>, <minecraft:water_bucket>]]);
+recipes.addShaped(<PneumaticCraft:plasticPlant:5>, [[<minecraft:wheat_seeds>, <minecraft:ender_pearl>]]);
+recipes.addShaped(<PneumaticCraft:plasticPlant:6>, [[<minecraft:wheat_seeds>, <minecraft:dye:4>]]);
+recipes.addShaped(<PneumaticCraft:plasticPlant:8>, [[<minecraft:wheat_seeds>, <minecraft:dye:8>]]);
+recipes.addShaped(<PneumaticCraft:plasticPlant:9>, [[<minecraft:wheat_seeds>, <minecraft:dye:9>]]);
+recipes.addShaped(<PneumaticCraft:plasticPlant:11>, [[<minecraft:wheat_seeds>, <minecraft:dye:11>]]);
+recipes.addShaped(<PneumaticCraft:plasticPlant:10>, [[<minecraft:wheat_seeds>, <minecraft:dye:10>]]);
+recipes.addShaped(<PneumaticCraft:plasticPlant:12>, [[<minecraft:wheat_seeds>, <minecraft:dye:12>]]);
+recipes.addShaped(<PneumaticCraft:plasticPlant:14>, [[<minecraft:wheat_seeds>, <minecraft:dye:14>]]);
+recipes.addShaped(<PneumaticCraft:plasticPlant:15>, [[<minecraft:wheat_seeds>, <minecraft:dye:15>]]);
