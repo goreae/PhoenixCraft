@@ -34,10 +34,10 @@ Updated WAILA
 Updated Tinkers Mechworks
 Updated Thaumcraft
 Updated Tinkers Construct
-Added Spice Of Life (Gid)
-Added WAILA Harvestability (Gid)
-Added Pneumaticraft (Gid)
-Added recipes for Pneumaticraft Seeds (Gid)
+Added Spice Of Life (Gideonseymour)
+Added WAILA Harvestability (Gideonseymour)
+Added Pneumaticraft (Gideonseymour)
+Added recipes for Pneumaticraft Seeds (Gideonseymour)
 Updated LogisticsPipes
 
 =========================
