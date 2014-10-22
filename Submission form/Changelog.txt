@@ -7,6 +7,9 @@ Added some extra microblocks (Gideonseymour)
 Fixed broken atomic disassembler recipe.
 Fixed "Big Reactor Glass" name
 Added alternate recipe for the Digital miner
+Fixed Energytablet in Minetweaker
+Changed recipe for Mekanism jetpack
+Changed recipe for basic machine casing
 
 =========================
 2.1.00
