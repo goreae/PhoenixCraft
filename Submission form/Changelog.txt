@@ -4,6 +4,9 @@
 Turned Openblocks graves on
 Added some extra microblocks (Gideonseymour)
 *Hopefully* Fixed Logisticspipes crash
+Fixed broken atomic disassembler recipe.
+Fixed "Big Reactor Glass" name
+Added alternate recipe for the Digital miner
 
 =========================
 2.1.00
