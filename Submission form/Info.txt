@@ -26,3 +26,7 @@ WaslieCore, Wasliebob, http://minecraft.curseforge.com/mc-mods/224425-blood-util
 BloodUtils, Wasliebob, http://minecraft.curseforge.com/mc-mods/224425-blood-utils
 Sanguimancy, Tombenpotter, http://minecraft.curseforge.com/mc-mods/223722-sanguimancy
 Blood Arsenal, Arcaratus, http://www.minecraftforum.net/forum...-mods/2231288-blood-magic-addon-blood-arsenal
+-------------------------------------------------------------------------------------------------------------
+DecoCraft, RazzleberryFox, http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1292016-decocraft-decorations-and-props-for-minecraft-v1
+Perms for Decocraft: http://i.imgur.com/TJ3JKjD.png
+-------------------------------------------------------------------------------------------------------------
