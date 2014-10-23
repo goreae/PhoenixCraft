@@ -1,0 +1,7 @@
+{
+    "name": "Solar_panel_assembly",
+    "texture": "SolarPanel",
+    "lore": [
+        "Assembled solar panel!"
+    ]
+}
