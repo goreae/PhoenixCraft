@@ -1,4 +1,9 @@
 =========================
+2.1.02
+-------------------------
+Added DecoCraft
+
+=========================
 2.1.01
 -------------------------
 Turned Openblocks graves on
@@ -10,6 +15,8 @@ Added alternate recipe for the Digital miner
 Fixed Energytablet in Minetweaker
 Changed recipe for Mekanism jetpack
 Changed recipe for basic machine casing
+Added Quadrum
+Fixed reported ForgeMultiPart crash
 
 =========================
 2.1.00
