@@ -5,8 +5,7 @@ Added DecoCraft
 Complete new recipes for all Mekanism generators
 Added all Forestry blocks to FMP whitelist
 Added most Botania blocks to FMP whitelist
-
-
+New Electrolytic Separator recipe
 
 =========================
 2.1.01
