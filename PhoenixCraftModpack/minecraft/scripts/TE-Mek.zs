@@ -30,10 +30,22 @@ val mekGasTank = <Mekanism:GasTank:100>;
 val solarPanelMek = <MekanismGenerators:SolarPanel>;
 val solarGenMek = <MekanismGenerators:Generator:1>;
 val solarGenMekAdvanced = <MekanismGenerators:Generator:5>;
+val heatGenMek = <MekanismGenerators:Generator>;
+val bioGenMek = <MekanismGenerators:Generator:4>;
+val steelCasing = <Mekanism:BasicBlock:8>;
+val gasGenMek = <MekanismGenerators:Generator:3>;
+val windGenMek = <MekanismGenerators:Generator:6>;
+val HDPERod = <Mekanism:Polyethene:1>;
+val eliteControlCircuit = <Mekanism:ControlCircuit:2>;
+val osmiumBlock = <Mekanism:BasicBlock>;
 
 val enderiumGear = <ThermalFoundation:material:140>;
 val enderiumCasing = <ThermalExpansion:Frame:3>;
 val basicCasing = <ThermalExpansion:Frame>;
+val signalumGear = <ThermalFoundation:material:138>;
+val redstoneConductanceCoil = <ThermalExpansion:material:3>;
+val fluxedElectrumIngot = <RedstoneArsenal:material:32>;
+val electrumGear = <ThermalFoundation:material:135>;
 
 val advancedPCB = <PneumaticCraft:advancedPCB>;
 val programmerPNEU = <PneumaticCraft:programmer>;
@@ -43,6 +55,15 @@ val pneumaticCilinder = <PneumaticCraft:pneumaticCilinder>;
 val plasticSquid = <PneumaticCraft:plastic>;
 val PCB = <PneumaticCraft:printedCircuitBoard>;
 val compressedIronBlock = <PneumaticCraft:compressedIronBlock>;
+val capacitator = <PneumaticCraft:capacitor>;
+val plasticFire = <PneumaticCraft:plastic:1>;
+val advancedPressureTube = <PneumaticCraft:advancedPressureTube>;
+val turbineRotor = <PneumaticCraft:turbineRotor>;
+
+val heatSand = <Natura:heatsand>;
+val tankBC = <BuildCraft|Factory:tankBlock>;
+val fermentedSpiderEye = <minecraft:fermented_spider_eye>;
+val igniter = <TMechworks:RedstoneMachine:1>;
 
 
 recipes.remove(digiMiner);
@@ -64,3 +85,18 @@ recipes.addShaped(solarGenMek, [[solarPanelMek, solarPanelMek, solarPanelMek], [
 
 recipes.remove(solarGenMekAdvanced);
 recipes.addShaped(solarGenMekAdvanced, [[solarGenMek, advancedPCB, solarGenMek], [solarGenMek, advancedPCB, solarGenMek], [osmium, compressedIronBlock, osmium]]);
+
+recipes.remove(heatGenMek);
+recipes.addShaped(heatGenMek, [[osmium, capacitator, osmium], [heatSand, obsidianIngot, heatSand], [signalumGear, redstoneConductanceCoil, signalumGear]]);
+
+recipes.remove(bioGenMek);
+recipes.addShaped(bioGenMek, [[osmium, tankBC, osmium], [plasticFire, fermentedSpiderEye, plasticFire], [heatGenMek, igniter, heatGenMek]]);
+
+recipes.remove(steelCasing);
+recipes.addShaped(steelCasing, [[compressedIngot, steel, compressedIngot], [steel, obsidianIngot, steel], [compressedIngot, steel, compressedIngot]]);
+
+recipes.remove(gasGenMek);
+recipes.addShaped(gasGenMek, [[fluxedElectrumIngot, mekGasTank, fluxedElectrumIngot], [advancedPressureTube, electrolyticCore, plasticHelium], [heatGenMek, igniter, heatGenMek]]);
+
+recipes.remove(windGenMek);
+recipes.addShaped(windGenMek, [[null, HDPERod, turbineRotor], [capacitator, electrumGear, null], [energyTablet, eliteControlCircuit, osmiumBlock]]);
