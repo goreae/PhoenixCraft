@@ -38,6 +38,7 @@ val windGenMek = <MekanismGenerators:Generator:6>;
 val HDPERod = <Mekanism:Polyethene:1>;
 val eliteControlCircuit = <Mekanism:ControlCircuit:2>;
 val osmiumBlock = <Mekanism:BasicBlock>;
+val electrolyticSeparator = <Mekanism:MachineBlock2:4>;
 
 val enderiumGear = <ThermalFoundation:material:140>;
 val enderiumCasing = <ThermalExpansion:Frame:3>;
@@ -59,6 +60,7 @@ val capacitator = <PneumaticCraft:capacitor>;
 val plasticFire = <PneumaticCraft:plastic:1>;
 val advancedPressureTube = <PneumaticCraft:advancedPressureTube>;
 val turbineRotor = <PneumaticCraft:turbineRotor>;
+val regulatorTubeModule = <PneumaticCraft:regulatorTubeModule>;
 
 val heatSand = <Natura:heatsand>;
 val tankBC = <BuildCraft|Factory:tankBlock>;
@@ -100,3 +102,6 @@ recipes.addShaped(gasGenMek, [[fluxedElectrumIngot, mekGasTank, fluxedElectrumIn
 
 recipes.remove(windGenMek);
 recipes.addShaped(windGenMek, [[null, HDPERod, turbineRotor], [capacitator, electrumGear, null], [energyTablet, eliteControlCircuit, osmiumBlock]]);
+
+recipes.remove(electrolyticSeparator);
+recipes.addShaped(electrolyticSeparator, [[mekGasTank, regulatorTubeModule, mekGasTank], [PCB, electrolyticCore, energyTablet], [osmium, eliteControlCircuit, osmium]]);
