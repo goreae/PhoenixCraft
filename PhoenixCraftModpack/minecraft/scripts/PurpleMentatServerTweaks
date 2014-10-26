@@ -1,0 +1,7 @@
+##Created for the PMPatreonServer
+
+//Disables BC quarry
+recipes.remove(<BuildCraft|Factory:machineBlock>);
+
+//disables BC mining well
+recipes.remove(<BuildCraft|Factory:miningWellBlock>);
