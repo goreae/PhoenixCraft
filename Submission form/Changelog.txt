@@ -1,4 +1,13 @@
 =========================
+2.1.03
+-------------------------
+Re-enabled tome of knowlage sharing
+Added NEIPlugins
+ComputerCraft is now disabled by default
+Added ThaumcraftNEIPlugin
+Added TE ores to miners backpack whitelist
+
+=========================
 2.1.02
 -------------------------
 Added DecoCraft
