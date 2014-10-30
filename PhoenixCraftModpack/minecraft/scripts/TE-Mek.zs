@@ -1,6 +1,7 @@
 val glass = <ore:glass>;
 val tinGear = <ore:gearTin>;
 val steel = <ore:ingotSteel>;
+val iron = <ore:ingotIron>;
 val osmium = <ore:ingotOsmium>;
 val glassPane = <minecraft:glass_pane>;
 
@@ -72,7 +73,7 @@ recipes.remove(digiMiner);
 recipes.addShaped(digiMiner, [[atomicAlloy, advancedPCB, atomicAlloy], [programmerPNEU, robit, enderiumGear], [teleprotationCore, enderiumCasing, teleprotationCore]]);
 
 recipes.remove(basicCasing);
-recipes.addShaped(basicCasing, [[compressedIngot, glass, compressedIngot], [glass, tinGear, glass], [compressedIngot, glass, compressedIngot]]);
+recipes.addShaped(basicCasing, [[iron, tinGear, iron], [glass, compressedIngot, glass], [iron, glass, iron]]);
 
 recipes.remove(jetpackMek);
 recipes.addShaped(jetpackMek, [[steel, advancedCircuit, steel], [plasticHelium, mekGasTank, plasticHelium], [pneumaticCilinder, plasticSquid, pneumaticCilinder]]);
