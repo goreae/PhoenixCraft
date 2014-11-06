@@ -36,7 +36,7 @@ game.setLocalization("en_US", "tc.research_name.VISF", "Vis filtering!");
 game.setLocalization("en_US", "tc.research_text.VISF", "[PC] Filtering in the sky!");
 mods.thaumcraft.Research.addPage("VISF", "PC.research_page.VISF");
 game.setLocalization("en_US", "PC.research_page.VISF", "-TODO-");
-mods.thaumcraft.Research.addPrereq("VISF", "DISTILLATION", true);
+##mods.thaumcraft.Research.addPrereq("VISF", "DISTILLATION", true);
 mods.thaumcraft.Research.setConcealed("VISF", false);
 
 //Research for SHL
