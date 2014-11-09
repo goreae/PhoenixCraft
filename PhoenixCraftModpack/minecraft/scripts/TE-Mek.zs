@@ -96,7 +96,7 @@ recipes.remove(bioGenMek);
 recipes.addShaped(bioGenMek, [[osmium, tankBC, osmium], [plasticFire, fermentedSpiderEye, plasticFire], [heatGenMek, igniter, heatGenMek]]);
 
 recipes.remove(steelCasing);
-recipes.addShaped(steelCasing, [[compressedIngot, steel, compressedIngot], [steel, obsidianIngot, steel], [compressedIngot, steel, compressedIngot]]);
+recipes.addShaped(steelCasing, [[compressedIngot, steel, compressedIngot], [steel, osmium, steel], [compressedIngot, steel, compressedIngot]]);
 
 recipes.remove(gasGenMek);
 recipes.addShaped(gasGenMek, [[fluxedElectrumIngot, mekGasTank, fluxedElectrumIngot], [advancedPressureTube, electrolyticCore, plasticHelium], [heatGenMek, igniter, heatGenMek]]);
