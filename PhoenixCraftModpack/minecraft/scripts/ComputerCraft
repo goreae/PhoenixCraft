@@ -14,6 +14,8 @@ val modemWireless = <ComputerCraft:CC-Peripheral:1>;
 val monitorBasic = <ComputerCraft:CC-Peripheral:2>;
 val monitorAdvanced = <ComputerCraft:CC-Peripheral:4>;
 val networkCable = <ComputerCraft:CC-Cable>;
+val diskDrive = <ComputerCraft:CC-Peripheral:0>;
+val printer = <ComputerCraft:CC-Peripheral:3>;
 
 ##TE
 #ingots
@@ -36,6 +38,9 @@ val capacitorEnderium = <ThermalExpansion:capacitor:5>;
 #Energy cells
 val cellHardened = <ThermalExpansion:Cell:2>;
 val cellRedstone = <ThermalExpansion:Cell:3>;
+#etc
+val cacheHardened = <ThermalExpansion:Cache:2>;
+val tesseract = <ThermalExpansion:Tesseract>;
 
 #Misc.
 val MEInterface = <appliedenergistics2:tile.BlockInterface>;
@@ -45,6 +50,7 @@ val PCB = <StevesCarts:ModuleComponents:16>;
 val blockRedstone = <minecraft:redstone_block>;
 val glass = <ore:blockGlass>;
 val conduitBinder = <EnderIO:itemMaterial:1>;
+val inkwell = <Thaumcraft:ItemInkwell>;
 
 //-------------------------------
 #Original recipes.
@@ -89,14 +95,22 @@ recipes.addShaped(modemWireless * 4, [[ingotEnderium, modemWired, ingotEnderium]
 
 #Basic tablet
 recipes.remove(tabletBasic);
-recipes.addShaped(tabletBasic, [[ingotInvar, ingotInvar, ingotInvar], [monitorBasic, diamondTube, ingotInvar], [ingotInvar, capacitorHardened, ingotInvar]]);
+recipes.addShaped(tabletBasic, [[ingotInvar, diamondTube, ingotInvar], [ingotInvar, monitorBasic, ingotInvar], [ingotInvar, capacitorHardened, ingotInvar]]);
 
 #Advanced tablet
 recipes.remove(tabletAdvanced);
-recipes.addShaped(tabletAdvanced, [[ingotElectrum, ingotElectrum, ingotElectrum], [monitorAdvanced, diamondTube, ingotElectrum], [ingotElectrum, capacitorRedstone, ingotElectrum]]);
+recipes.addShaped(tabletAdvanced, [[ingotElectrum, diamondTube, ingotElectrum], [ingotElectrum, monitorAdvanced, ingotElectrum], [ingotElectrum, capacitorRedstone, ingotElectrum]]);
 
 #Wireless tablet
-recipes.addShaped(wirelessTabletBasic, [[gearSignalum, modemWireless, gearSignalum], [monitorBasic, matrix, ingotInvar], [ingotInvar, capacitorEnderium, ingotInvar]]);
+recipes.addShaped(wirelessTabletBasic, [[gearSignalum, tesseract, gearSignalum], [ingotInvar, monitorBasic, ingotInvar], [ingotInvar, matrix, ingotInvar]]);
 
 #Advanced wireless tablet
-recipes.addShaped(wirelessTabletAdvanced, [[gearSignalum, modemWireless, gearSignalum], [monitorAdvanced, matrix, ingotElectrum], [ingotElectrum, capacitorEnderium, ingotElectrum]]);
+recipes.addShaped(wirelessTabletAdvanced, [[gearSignalum, tesseract, gearSignalum], [ingotElectrum, monitorAdvanced, ingotElectrum], [ingotElectrum, matrix, ingotElectrum]]);
+
+#Disk drive
+recipes.remove(diskDrive);
+recipes.addShaped(diskDrive, [[ingotInvar, ingotInvar, ingotInvar], [ingotInvar, ingotSignalum, ingotInvar], [ingotInvar, cacheHardened, ingotInvar]]);
+
+#Printer
+recipes.remove(printer);
+recipes.addShaped(printer, [[ingotInvar, ingotInvar, ingotInvar], [ingotInvar, gearSignalum, ingotInvar], [ingotInvar, inkwell, ingotInvar]]);
